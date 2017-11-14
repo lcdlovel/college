@@ -1,0 +1,427 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/college_list.css">
+    <title>欢迎来到校集网</title>
+</head>
+<body>
+	<!-- 导航框 -->
+    <div class="navbar navbar-fixed-top  navbar-default animated fadeInDown">
+        <div class="container">
+            <!--头部  -->
+            <div class="navbar-header">
+                <a href="javascript:;" class="navbar-brand" style="color:#EC7D6A
+                ;font-family:'宋体'
+                ">校集</a>
+                <a class="navbar-toggle" data-toggle="collapse" href="#menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+            </div>  <!-- 头部结尾 -->
+            
+            <!-- 导航菜单栏 -->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" style="color:#EC7D6A">首页</a></li>
+                    <li><a href="#">App下载</a></li>
+                </ul>
+            
+            <!-- 搜索实现 -->
+                <form class="navbar-form navbar-left" data-search="form">
+                    <div class="form-grop has-feedback">
+                        <label for="kw" class="sr-only">sreach keyword</label>
+                        <input type="text" class="form-control " placeholder="Search" data-search="search" id="search-box"
+                          >
+                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                    </div>
+                    <!--搜索提示内容  -->
+                    <div class="search-cue" data-search="cue">
+                        <div class="search-content">
+                            <div class="clearfix">
+                                <div class="hot-search left">热门搜书</div>
+                                <div class="right">
+                                    <span class="glyphicon glyphicon-refresh"></span>
+                                    <span style="cursor:pointer"><a href="javascript:;" style="color:#969696">搜一搜</a></span>
+                                </div>
+                            </div>  
+                            <ul class="clearfix">
+                                <li class="cue"><a href="javascript:;" >北京大学</a></li>
+                                <li class="cue"><a href="javascript:;" >复旦大学</a></li>
+                                <li class="cue"><a href="javascript:;" >上海交通大学</a></li>
+                                <li class="cue"><a href="javascript:;" >清华大学</a></li>
+                                <li class="cue"><a href="javascript:;" >南开大学</a></li>
+                                <li class="cue"><a href="javascript:;" >西南大学</a></li>
+                            </ul>
+                        </div>   
+                    </div>
+                </form>
+                
+                <!-- 登录注册 -->
+                <ul class="nav navbar-nav navbar-right" data-login="chose">
+                        <li><a href="javascript:;">注册</a></li>
+                        <span class="navbar-text hidden-xs">|</span>
+                        <li><a href="javascript:;">登录</a></li>
+                </ul>
+
+                <!-- 切换模式 -->
+                <div class="cut nav navbar-nav navbar-right hidden-xs" >
+                    <li><a href="javascript:;" data-cut="btn">Aa</a></li>
+                    <!-- 切换内容 -->
+                    <div class="cut-content" data-cut="cut">
+                        <div class="cut-con">
+                            <div class="left text-center" style="width:50%;height:100%;padding:10px;">护眼模式</div>
+                            <div class="right" style="width:50%">
+                                <span href="javascript:;" class="open text-center left ">开</span>
+                                <span href="javascript:;" class="inclose text-center right act">关</span>
+                            </div>
+                        </div>  
+                    </div>
+                </div> <!-- 切换模式结尾 -->
+                
+            </div>
+        </div>    <!-- container结尾 -->
+        
+    </div>
+    <!-- 导航框结尾 -->
+
+    <!-- 主体内容部分 -->
+    <div class="container">
+        <!-- 轮播图部分 -->
+        <div class="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/colleges/01.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <p>大学校园没有车水马龙的喧嚣，只有阳光透过树叶点点斑斑洒在小路上的安静，到处飘荡着花草的迷人香味，让人神往。现在让我们一起看看全国最美高校TOP10都是哪几所吧。</p>              
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/02.jpg" alt="..."> 
+                    <div class="carousel-caption">
+                    <p>武大樱花闻名全国，有人说在武大看樱花，在樱花树下读美学是人生的绝美享受。</p>             
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/03.jpg" alt="...">  
+                    <div class="carousel-caption">
+                    <p>厦门大学外临白城海滩，内拥芙蓉湖、棕榈树林荫道、情人谷，是名符其实的山海花园。</p>            
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/04.jpg" alt="..."> 
+                    <div class="carousel-caption">
+                    <p>北大的美，不单单是人文气息的美，更多的是一湾让许多学子魂牵梦绕的未名湖。</p>            
+                    </div> 
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/05.jpg" alt="...">    
+                    <div class="carousel-caption">
+                    <p>中山大学的美是独特清淡的，广寒宫、中央草坪，每一处尽显端庄大方的幽雅。</p>          
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/06.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <p>深圳大学坐落在南山后海湾，依山起伏、外海内湖、荔枝成林、花木繁荣，时尚不失文雅。</p>              
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/07.jpg" alt="...">  
+                    <div class="carousel-caption">
+                    <p>清华大学曾是圆明园的一部分， 水木清华，荷塘月色，竭尽第一学府的玲珑剔透。</p>            
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/08.jpg" alt="...">     
+                    <div class="carousel-caption">
+                    <p>地处四季如春的昆明，云南大学的美是其他学校无法比拟的，无论何时校园总弥漫着花香。</p>         
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/09.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <p>西南名都，竹溪佳处，胜在望江楼，四川大学将自然名胜和人文荟萃融合的浑然天成。</p>              
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/10.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <p>处江南腹地人间天堂苏州，苏州大学继承了苏州园林的精巧，瑰丽精致，可圈可点。</p>              
+                    </div>
+                </div>
+                <div class="item ">
+                    <img src="img/colleges/11.jpg" alt="..."> 
+                    <div class="carousel-caption">
+                    <p>位于青岛的中国海洋大学被赞拥有国内大学中最完美的西洋风格建筑群，它还是国内极少数拥有独立的海上小岛研究中心的学校。</p>             
+                    </div>    
+                </div>
+                        
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+                </div>
+        </div>
+        <!-- 轮播图结尾 -->
+        
+        <!-- 上下轮播部分 -->
+        <div class="banner-content hidden-xs hidden-md hidden-sm ">
+            <ul class="list-unstyled " data-banner="banner" style="position:relative" >
+                <li ><img src="img/colleges/02.jpg" alt=""></li>
+                <li><img src="img/colleges/03.jpg" alt=""></li>
+                <li><img src="img/colleges/04.jpg" alt=""></li>
+                <li><img src="img/colleges/05.jpg" alt=""></li>
+                <li><img src="img/colleges/06.jpg" alt=""></li>
+                <li><img src="img/colleges/07.jpg" alt=""></li>
+                <li><img src="img/colleges/08.jpg" alt=""></li>
+                <li><img src="img/colleges/09.jpg" alt=""></li>
+                <li><img src="img/colleges/10.jpg" alt=""></li>
+                <li><img src="img/colleges/11.jpg" alt=""></li>
+                <li ><img src="img/colleges/02.jpg" alt=""></li>
+            </ul>
+        </div>
+        <!-- 上下轮播的结尾 -->
+        
+        <!-- 不同学校的师生的自我评论 -->
+        <div class="col-sx-12 col-md-8 "  class="content">
+            <!--根据学校的不同进行搜索-->
+            <div class="btn-search">
+                <ul>
+                    <li class="btn-list">
+                        <img src="img/01/01_icon.jpg" alt="">
+                        <div class="list-name">北京大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/02/02_icon.jpg" alt="">
+                        <div class="list-name">清华大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/03/03_icon.jpg" alt="">
+                        <div class="list-name">上海交通大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/04/04_icon.jpg" alt="">
+                        <div class="list-name">复旦大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/05/05_icon.jpg" alt="">
+                        <div class="list-name">重庆大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/06/06_icon.jpg" alt="">
+                        <div class="list-name">西南大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/07/07_icon.jpg" alt="">
+                        <div class="list-name">天津大学</div>
+                    </li>
+                    <li class="btn-list">
+                        <img src="img/08/08_icon.jpg" alt="">
+                        <div class="list-name">南开大学</div>
+                    </li>
+                    <li style="list-style:none;color:#969696">
+                        <span>加载更多</span>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </li>
+                </ul>
+            </div>
+            <!--按钮搜索结尾-->
+           <ul class="content-list list-unstyled">
+               <li>
+                   <div class="content">
+                        <div class="author">
+                            <a href="" class="author-head"><img src="img/author/02.jpg" alt=""></a>
+                            <span class="name">三叶秋</span>
+                            <span class="time">两小时之前</span>
+                        </div>
+                        <a href="" class="title">最美校园</a>
+                        <p class="abstract" data-abstract="abstruct">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga saepe ex esse laudantium enim sequi nemo soluta, tenetur earum voluptatem omnis quod quisquam distinctio sunt vero aliquam possimus porro?
+                        </p>
+                        <div class="meta">
+                            <a href="" class="college-tag">北京大学</a>
+                            <a href="">
+                                <span class="glyphicon glyphicon-eye-open"></span>2552
+                            </a>
+                            <a href="">
+                                <span class="glyphicon glyphicon-heart"></span>1000
+                            </a>
+                            <a href="">
+                                <span class="glyphicon glyphicon-envelope"></span>500
+                            </a>
+                            <a href="">
+                                <span class="glyphicon glyphicon-thumbs-down"></span>100
+                            </a>
+                        </div>
+                   </div>
+                   <a href="" class="wrap-img">
+                       <img src="img/author/12.jpg" alt="">
+                   </a>
+               </li>
+               <li>
+                   <div class="content">
+                       <div class="author">
+                           <a href="" class="author-head"><img src="img/author/01.jpg" alt=""></a>
+                           <span class="name">三叶秋</span>
+                           <span class="time">两小时之前</span>
+                       </div>
+                       <a href="" class="title">最美校园</a>
+                       <p class="abstract" data-abstract="abstruct">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga saepe ex esse laudantium enim sequi nemo soluta, tenetur earum voluptatem omnis quod quisquam distinctio sunt vero aliquam possimus porro?
+                       </p>
+                       <div class="meta">
+                           <a href="" class="college-tag">北京大学</a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-eye-open"></span>2552
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-heart"></span>1000
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-envelope"></span>500
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-thumbs-down"></span>100
+                           </a>
+                       </div>
+                   </div>
+                   <a href="" class="wrap-img">
+                       <img src="img/author/11.png" alt="">
+                   </a>
+               </li>
+               <li>
+                   <div class="content">
+                       <div class="author">
+                           <a href="" class="author-head"><img src="img/author/03.jpg" alt=""></a>
+                           <span class="name">三叶秋</span>
+                           <span class="time">两小时之前</span>
+                       </div>
+                       <a href="" class="title">最美校园</a>
+                       <p class="abstract" data-abstract="abstruct">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga saepe ex esse laudantium enim sequi nemo soluta, tenetur earum voluptatem omnis quod quisquam distinctio sunt vero aliquam possimus porro?
+                       </p>
+                       <div class="meta">
+                           <a href="" class="college-tag">北京大学</a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-eye-open"></span>2552
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-heart"></span>1000
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-envelope"></span>500
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-thumbs-down"></span>100
+                           </a>
+                       </div>
+                   </div>
+                   <a href="" class="wrap-img">
+                       <img src="img/author/13.jpg" alt="">
+                   </a>
+               </li>
+               <li>
+                   <div class="content">
+                       <div class="author">
+                           <a href="" class="author-head"><img src="img/author/04.jpg" alt=""></a>
+                           <span class="name">三叶秋</span>
+                           <span class="time">两小时之前</span>
+                       </div>
+                       <a href="" class="title">最美校园</a>
+                       <p class="abstract" data-abstract="abstruct">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga saepe ex esse laudantium enim sequi nemo soluta, tenetur earum voluptatem omnis quod quisquam distinctio sunt vero aliquam possimus porro?
+                       </p>
+                       <div class="meta">
+                           <a href="" class="college-tag">北京大学</a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-eye-open"></span>2552
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-heart"></span>1000
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-envelope"></span>500
+                           </a>
+                           <a href="">
+                               <span class="glyphicon glyphicon-thumbs-down"></span>100
+                           </a>
+                       </div>
+                   </div>
+                   <a href="" class="wrap-img">
+                       <img src="img/author/14.jpg" alt="">
+                   </a>
+               </li>
+           </ul>
+        </div>
+        <!-- 排行榜 -->
+        <div class="col-sx-12 col-md-4 charts">
+            <div class="" >
+                <img src="img/charts/01.png" alt="">
+            </div>
+            <div class="">
+                <img src="img/charts/02.png" alt="">
+            </div>
+            <div class="" >
+                <img src="img/charts/03.png" alt="">
+            </div>
+            <div class="charts1" >
+                <img src="img/charts/04.png" alt="">
+                <div>校&nbsp;集</div>
+            </div>
+            <div class="charts2" >
+                <img src="img/charts/05.png" alt="">
+                <div>校&nbsp;集</div>
+            </div>
+            <div class="charts3 clearfix" data-app="App">
+                <img src="img/charts/06.png" alt="" class="left">
+                <div class="left">
+                    <p class="charts-text1">下载校集App <span class="glyphicon glyphicon-chevron-right"></span></p>
+                    <p class="charts-text2">随时随地发现和创作内容</p>
+                </div>
+            </div>
+        </div>
+        <!--排行榜的结尾-->
+        <!--尾部-->
+        <div class="row " id="footer">
+            <div class="col-sx-12 col-md-8">
+                <ul class="list-inline" data-abstract="abstruct">
+                    <li>关于校集</li>
+                    <li>·</li>
+                    <li>联系我们</li>
+                    <li>·</li>
+                    <li>加入我们</li>
+                    <li>·</li>
+                    <li>帮助中心</li>
+                    <li>·</li>
+                    <li>合作伙伴</li>
+                </ul>
+                <div style="color:#C8C8C8;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi at consequuntur cum eum excepturi id magnam molestiae officia pariatur placeat porro, provident, quaerat quam sapiente, unde veniam vero voluptatibus.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+<script src="js/college_list.js"></script>
+<script src="js/logreg.js"></script>
+</html>		

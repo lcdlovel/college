@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>欢迎来到校集网</title>
+</head>
+<body>
+    <div  class="navbar navbar-default navbar-fixed-top animated fadeInDown">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="javascript:;" class="navbar-brand" style="color:#D97634
+                ;font-family:'宋体'">校集</a>
+                <a class="navbar-toggle" data-toggle="collapse" href="#menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+            </div>  <!-- 头部结尾 -->
+            <!-- 导航菜单栏 -->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" style="color:#D97634">首页</a></li>
+                    <li><a href="#">App下载</a></li>
+                </ul>
+           </div>     
+        </div>
+    </div>
+    <div id="canvas-holder" >
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <!--提交表单-->
+    <div  id="form" class="animated fadeInUp">
+        <div class="clearfix" data-click="click">
+            <div class="login left text-right">
+                <span class="selected" data-show="login">登录</span>
+            </div>
+            <div class="center left">·</div>
+            <div class="register left">
+               <span>注册</span>
+            </div>
+        </div>
+        <div class="login-form" data-toggle="login" >
+            <div class="input">
+                <ul class="list-unstyled">
+                    <li class="name">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="uname" placeholder="手机号或邮箱">
+                    </li>
+                    <li class="line"></li>
+                    <li class="pwd">
+                        <i class="fa fa-unlock-alt"></i>
+                        <input type="password" name="upwd" placeholder="密码">
+                        <div class="warn-fa" data-warn="upwd">
+                            <span class="warn">密码不正确</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="chose clearfix">
+                <div class="left text-left">
+                    <input type="checkbox">记住我
+                </div>
+                <div class="left text-right">
+                    登录遇到问题?
+                </div>
+
+            </div>
+
+            <button class="login-btn" data-login="btn">登录</button>
+
+            <h6>社交网络账号登录</h6>
+            <ul class="community list-inline">
+                <li><a href="#" class="fa fa-weibo" style="background-color: #E05244"></a></li>
+                <li><a href="#" class="fa fa-wechat"  style="background-color: #00BB29"> </a></li>
+                <li><a href="#" class="fa fa-qq" style="background-color: #498AD5"></a></li>
+                <li><a href="#"  style="background-color: #F0F0F0;font-size:20px;color:#000">其他</a></li>
+            </ul>
+        </div>
+        <div class="register-form" data-toggle="register" style="display: none">
+            <div class="input">
+                <ul class="list-unstyled">
+                    <li class="name">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="uname" placeholder="你的昵称" data-form='name'>
+                        <div class="warn-fa">
+                            <span class="warn">已存在</span>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="phone">
+                      <i class="fa fa-mobile"></i>
+                        <input type="number" name="phone" placeholder="手机号" data-form='phone'>
+                        <div class="warn-fa">
+                            <span class="warn">已注册或不正确</span>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="pwd">
+                        <i class="fa fa-unlock-alt"></i>
+                        <input type="password" name="upwd" placeholder="设置密码" data-form='upwd'>
+                        <div class="warn-fa">
+                            <span class="warn">英文Aa加数字</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="register-btn" style="background-color:#3DB922" data-btn="register">注册</button>
+            <div class="text-center agree">
+                点击 “注册” 即表示您同意并愿意遵守校集 <br>
+                <a href="#">用户协议</a>
+                和
+                <a href="">隐私政策</a> 。
+            </div>
+            <h6>社交账号直接注册</h6>
+            <ul class="community list-inline">
+                <li><a href="#" class="fa fa-weibo" style="background-color: #E05244"></a></li>
+                <li><a href="#" class="fa fa-wechat"  style="background-color: #00BB29"> </a></li>
+                <li><a href="#" class="fa fa-qq" style="background-color: #498AD5"></a></li>
+                <li><a href="#"  style="background-color: #F0F0F0;font-size:20px;color:#000">其他</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/login.js"></script>
+</html>
